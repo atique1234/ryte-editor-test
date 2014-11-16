@@ -1,0 +1,57 @@
+.ryte-toolbar-arrow-under:after {
+  top: 60px;
+  border-color: #57ad68 transparent transparent transparent; }
+
+.ryte-toolbar-arrow-over:before {
+  top: -8px;
+  border-color: transparent transparent #57ad68 transparent; }
+
+.ryte-editor-toolbar {
+  background-color: #57ad68; }
+  .ryte-editor-toolbar li {
+    padding: 0; }
+    .ryte-editor-toolbar li button {
+      min-width: 60px;
+      height: 60px;
+      border: none;
+      border-right: 1px solid #9ccea5;
+      background-color: transparent;
+      color: #fff;
+      -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in;
+              transition: background-color 0.2s ease-in, color 0.2s ease-in; }
+      .ryte-editor-toolbar li button:hover {
+        background-color: #346a3e;
+        color: #fff; }
+    .ryte-editor-toolbar li .ryte-editor-button-active {
+      background-color: #23482a;
+      color: #fff; }
+    .ryte-editor-toolbar li .ryte-editor-button-last {
+      border-right: none; }
+
+.ryte-editor-toolbar-form-anchor .ryte-editor-toolbar-anchor-input {
+  height: 60px;
+  background: #57ad68;
+  color: #fff; }
+  .ryte-editor-toolbar-form-anchor .ryte-editor-toolbar-anchor-input::-webkit-input-placeholder {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8); }
+  .ryte-editor-toolbar-form-anchor .ryte-editor-toolbar-anchor-input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8); }
+  .ryte-editor-toolbar-form-anchor .ryte-editor-toolbar-anchor-input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8); }
+  .ryte-editor-toolbar-form-anchor .ryte-editor-toolbar-anchor-input:-ms-input-placeholder {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8); }
+.ryte-editor-toolbar-form-anchor a {
+  color: #fff; }
+
+.ryte-editor-toolbar-anchor-preview {
+  background: #57ad68;
+  color: #fff; }
+
+.ryte-editor-placeholder:after {
+  color: #fff; }

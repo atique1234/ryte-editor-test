@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ryte Editor| DEMO</title>
+    <link rel="stylesheet" href="css/demo.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/css/ryte-editor.css">
+    <link rel="stylesheet" href="../dist/css/themes/mani.css">
+	<link rel="stylesheet" href="../dist/css/grid.css">
+    <script src="../dist/js/dnd-img.js"></script>
+	
+</head>
+<body>
+    <div id="container">
+        </br></br>
+		<h1>Ryte Editor</h1>
+		<h2 class="editable"> </h2>
+        <div class="editable">
+        </div>
+    
+		<script src="../dist/js/ryte-editor.js"></script>
+		<script>
+			
+			
+			var editor = new RyteEditor('.editable', {
+					buttons: ['bold', 'italic', 'underline', 'quote','image', 'superscript', 'subscript', 'orderedlist', 'unorderedlist', 'pre', 'outdent', 'indent'],
+					buttonLabels: 'fontawesome',
+					anchorTarget: true,
+					toolBarStatic: true,
+					toolBarStaticTop: '3%'
+				});
+			var editor2 = new RyteEditor('.editable', {
+					buttons: ['bold', 'italic', 'underline', 'anchor'],
+					 buttonLabels: 'fontawesome',
+					toolBarStatic: false
+				});
+		</script>
+	</div>
+</body>
+</html>
